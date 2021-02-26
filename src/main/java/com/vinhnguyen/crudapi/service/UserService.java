@@ -13,4 +13,3 @@ public interface UserService {
 	
 	public void detele(int id);
 }
-aaa	
