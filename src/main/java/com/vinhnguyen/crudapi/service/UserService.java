@@ -5,7 +5,7 @@ import java.util.List;
 import com.vinhnguyen.crudapi.entites.User;
 
 public interface UserService {
-	public List<User> findAll(String name, String email);
+	public List<User> findAll(String name, String email, String keySort, String sortBy, int pageNumber);
 	
 	public User save(User user);
 	

@@ -40,4 +40,9 @@ public class UserCriteria {
 		this.value = value;
 	}
 
+	public boolean isOrPredicate() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
